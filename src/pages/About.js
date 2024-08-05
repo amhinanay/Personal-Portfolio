@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../App.css'; // Assuming you use this for general styling
 
+
 function About() {
     // State to manage active tab
     const [activeTab, setActiveTab] = useState('skills');
@@ -15,7 +16,8 @@ function About() {
             <div className="container">
                 <div className="row">
                     <div className="about-col-1">
-                        <img src="user.png" alt="Alexander Hinanay" />
+                    <img src="/user.png" alt="Alexander Hinanay" />
+
                     </div>
                     <div className="about-col-2">
                         <h1 className="sub-title">About Me</h1>
